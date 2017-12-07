@@ -1,0 +1,34 @@
+/*common style*/
+.center {
+	margin: 0px auto;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.common_width {
+	width: 300px;
+}
+button {
+	width: 60px;
+	height: 30px;
+}
+/*test style*/
+div.top {
+	height: 60px;
+	background-color: red;
+}
+div.middle {
+	height: 340px;
+	background-color: yellow;
+}
+div.bottom {
+	height: 100px;
+	background-color: green;
+}
+
+img.pronounce_skills_pic {
+	height: 300px;
+}
