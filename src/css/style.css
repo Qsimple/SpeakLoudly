@@ -21,14 +21,32 @@ div.top {
 	background-color: red;
 }
 div.middle {
-	height: 340px;
+	height: 327px;
 	background-color: yellow;
 }
 div.bottom {
-	height: 100px;
+	/* height: 100px; */
 	background-color: green;
+	word-wrap:break-word; 
+	word-break:break-all; 
+	overflow: hidden;
+}
+
+div.picture {
+	height: 300px;
 }
 
 img.pronounce_skills_pic {
 	height: 300px;
+}
+
+#pronounce_audio {
+  padding: 0px;
+  margin: 0px;
+  height: 27px;
+}
+
+h1.title {
+  text-align: center;
+  line-height: 56px;
 }

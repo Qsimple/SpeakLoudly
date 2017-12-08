@@ -9,13 +9,18 @@
 </head>
 <body>
 	<div class="top common_width center">
-		
+		<h1 class="title">Speak Loudly</h1>
 	</div>
 	<div class="middle common_width center">
 		<div class="picture">
 			<img id="contentImg" class="pronounce_skills_pic" src="../resources/doreen_pronounce_skills/发音技巧1.jpg" alt="pronounce_skills_pic">
 		</div>
-		<div class="player"></div>
+		<div class="player">
+			<audio id="pronounce_audio" controls="controls">
+				<source id="audio_src" src="../resources/doreen_pronounce_skills/发音技巧1.mp3" type="audio/mp3">
+				Your current brower can't support audio element!!
+			</audio>
+		</div>
 	</div>
 	<div class="bottom common_width center">
 		<button id="next" class="left">NEXT</button>
