@@ -32,8 +32,8 @@ jQuery(document).ready(function($) {
 				preloadImg(loadIdx + 1)	
 			}
 		});
-		
-		setTimeout(function () {imgObj.src = getImgDirFromIdx(loadIdx)}, 1000)
+		imgObj.src = getImgDirFromIdx(loadIdx)
+		// setTimeout(function () {imgObj.src = getImgDirFromIdx(loadIdx)}, 1000)
 	}
 	// 着陆面，默认加载前三张图片
 	preloadImg(currentIndex + 1)
